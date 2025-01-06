@@ -1,0 +1,27 @@
+{
+  "name": "be_sewa_properti",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "joi": "^17.13.3",
+    "mariadb": "^3.4.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5"
+  }
+}
